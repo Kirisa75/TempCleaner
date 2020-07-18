@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TempCleaner:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TempCleaner_jar</output-path>
+    <root id="archive" name="TempCleaner.jar">
+      <element id="module-output" name="TempCleaner" />
+    </root>
+  </artifact>
+</component>
