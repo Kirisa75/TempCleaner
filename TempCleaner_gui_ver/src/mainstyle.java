@@ -59,7 +59,7 @@ class mylistener implements ActionListener{
     @Override
     public void actionPerformed(ActionEvent e) {
         JButton btn1 = (JButton)e.getSource();
-        String path = "C:\\Users\\dksk4\\AppData\\Local\\Temp";
+        String path = System.getProperty("java.io.tmpdir");
         mainstyle.deletefolder(path);
 
     }
